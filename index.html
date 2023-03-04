@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ankan Wallboard</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    #title-background {
+      background-color: #4CAF50;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #title {
+      color: white;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    #canvas-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('background.jpg');
+      background-size: cover;
+    }
+
+    #canvas {
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <div id="title-background">
+    <h1 id="title">Ankan Wallboard</h1>
+  </div>
+  <div id="canvas-container">
+    <canvas id="canvas" width="900" height="600"></canvas>
+  </div>
+  <br>
+  <button onclick="clearCanvas()">Clear</button>
+  <button onclick="saveImage()">Save</button>
+  <script src="drawboard.js"></script>
+</body>
+</html>
