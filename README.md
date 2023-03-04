@@ -1,5 +1,5 @@
 # AgWallBoard
-A HTML and CSS based rough work board
+A HTML and CSS based rough work board.
 Start by opening the "Ankan Wallboard" HTML file in a web browser.
 You should see a green background with the title "Ankan Wallboard" at the top of the page and a canvas in the center of the page with a white background.
 Use your mouse or touchscreen to draw on the canvas. You can click and drag to draw lines, shapes, or whatever you like.
